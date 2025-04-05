@@ -19,7 +19,7 @@ mongoose.connect(MONGO_URI, {
 const app = express();
 
 const corsOptions = {
-    origin: 'https://101410993-assign2-comp3133-frontend.vercel.app', 
+    origin: 'https://101410993-assignment2-comp3133-frontend.vercel.app/', 
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, 
     allowedHeaders: 'Content-Type, Authorization', 
